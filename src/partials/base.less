@@ -1,0 +1,106 @@
+body, html {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.page {
+  overflow-x: hidden;
+}
+// Buttons
+.btn-blue,
+.btn-orange,
+.btn-green{
+  color: @white;
+  margin: @line-height-computed;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+.btn-blue {
+  background-color: @blue;
+
+  &.btn-blue:hover {
+    color: @white;
+    background: #0796d9;
+    text-shadow: 1px 1px #0093d8;
+  }
+}
+.btn-orange {
+  background-color: @orange;
+
+  &.btn-orange:hover {
+    color: @white;
+    background: #f37e00;
+    text-shadow: 1px 1px #e76700;
+  }
+}
+.btn-green {
+  background-color: @green;
+
+  &.btn-green:hover {
+    color: @white;
+    background: #8eb000;
+    text-shadow: 1px 1px #4ca222;
+  }
+}
+
+//Commonly used
+.c-white {
+  color: @white;
+}
+.c-brown {
+  color: @brown;
+}
+.c-blue {
+  color: @hiw-blue;
+}
+
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+.absolute {
+  position: absolute;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+.no-margin-top {
+  margin-top: 0 !important;
+}
+
+.margin-top-1 {
+  margin-top: 1rem;
+}
+.margin-top-2 {
+  margin-top: 2rem;
+}
+.margin-top-8 {
+  margin-top: 8rem;
+}
+.margin-top-6 {
+  margin-top: 6rem;
+}
+.margin-bottom-8 {
+  margin-bottom: 8rem;
+}
+.margin-bottom-4 {
+  margin-bottom: 4rem;
+}
+.padding-top-8 {
+  padding-top: 8rem;
+}
