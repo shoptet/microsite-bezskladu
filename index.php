@@ -24,6 +24,7 @@
         <link href="style/application.css" rel="stylesheet">
         <link rel="icon" type="img/ico" href="img/favicon.ico">
         <meta name="seznam-wmt" content="08p3xsiENxy6Jpa3keZHMKOFvZBzBQ39" />
+		<meta name="facebook-domain-verification" content="2xxspt05kq07vn963i5eh72kwjxnhe" />
         <script>
             <!-- Google Tag Manager -->
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
