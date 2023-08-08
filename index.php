@@ -63,7 +63,7 @@
                 <section id="section-header-box" class="section section-header">
                     <div class="container">
                         <div class="row text-center">
-                            <a href="//www.shoptet.cz/"><img src="img/shoptet-logo.png" alt="Shoptet" class="shoptet"></a>
+                            <img src="img/logo.svg" alt="BezSkladu.cz" class="shoptet" width="244" height="40">
                         </div>
                         
                         <div class="row text-center">
